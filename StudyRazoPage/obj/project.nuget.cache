@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gaSoYg7B6m3D1PNnVDPpFFXiDzLciZzj1AjMnsdkjoiRzs1xE8N6rurbmwxu7TA5KayubqSsnxQXbWoqDOqCww==",
+  "dgSpecHash": "9qx2efTCi/C1WR9sDeFG34dtvlygDNsRw6SBk0vTiJ03E6VjAHnY/R2o4pQFECcjbRbThL/FJwRxkF8S+QaG3g==",
   "success": true,
   "projectFilePath": "D:\\.NET\\StudyRazoPage\\StudyRazoPage\\StudyRazoPage.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

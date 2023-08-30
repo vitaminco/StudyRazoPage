@@ -72,3 +72,4 @@ D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\refint\StudyRazoPage.dll
 D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\StudyRazoPage.pdb
 D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\StudyRazoPage.genruntimeconfig.cache
 D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\ref\StudyRazoPage.dll
+D:\.NET\StudyRazoPage\StudyRazoPage\bin\Debug\net7.0\BCrypt.Net-Next.dll

@@ -17,13 +17,17 @@ namespace StudyRazoPage.Models
         public string Username { get; set; }
         [Required(ErrorMessage = "Mật khẩu là bắt buộc")]
         [MaxLength(200)]
+        [MinLength(4, ErrorMessage = "Mật khẩu chưa đủ mạnh!")]
         public string Password { get; set; }
         [NotMapped]//ko tạo cột cfmPassword vào trong bảng database
+        [MinLength(4, ErrorMessage = "Mật khẩu chưa đủ mạnh!")]
         [Compare("Password",ErrorMessage = "Mật khẩu không khớp")]
+        [Required(ErrorMessage = "Mật khẩu là bắt buộc")]
 
         public string Cfm_Password { get; set; }
         public UserRole Role { get; set; } //phan quyen; int ko ? là nó đã not null ròi
         [MaxLength(20)]
+        [MinLength(9, ErrorMessage = "Không đúng! Vui lòng nhập lại")]
         [Required(ErrorMessage = "Số điện thoại là bắt buộc")]
         public string Phone { get; set; }
         [MaxLength(200)]
@@ -31,6 +35,7 @@ namespace StudyRazoPage.Models
         public string Address { get; set; }
         [MaxLength(50)]
         [Required(ErrorMessage = "Email là bắt buộc")]
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         public DateTime? BlockedTo { get; set; }
         //? là ko cần not null
