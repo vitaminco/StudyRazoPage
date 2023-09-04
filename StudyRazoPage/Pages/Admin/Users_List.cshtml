@@ -1,0 +1,33 @@
+﻿@page
+@model StudyRazoPage.Pages.Admin.Users_ListModel
+@{
+}
+<div class="row">
+    <div class="col-12">
+        <a asp-page="/Client/Register" class="btn btn-link">Đăng kí</a>
+        <table class="table table-bordered table-hover">
+            <tr>
+                <th>Id</th>
+                <th>Tên đăng nhập</th>
+                <th>Email</th>
+                <th>Quyền</th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model.ListUsers)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Username</td>
+                    <td>@item.Email</td>
+                    <td>@(item.Role == StudyRazoPage.Common.UserRole.ROLEADMIN ? "Admin" : "Khách")</td>
+                    <td>
+                        <a asp-page="/Admin/User_Edit" class="btn btn-success">Sửa</a>
+                        <a asp-page="/Admin/User_Delete" class="btn btn-danger">Xóa</a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <partial name="_Pager" model="Model.ListUsers"/>
+    </div>
+</div>

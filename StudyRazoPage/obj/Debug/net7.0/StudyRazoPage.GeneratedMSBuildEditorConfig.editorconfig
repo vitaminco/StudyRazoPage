@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\.NET\StudyRazoPage\StudyRazoPage
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/.NET/StudyRazoPage/StudyRazoPage/Pages/Admin/Users_List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNfTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/.NET/StudyRazoPage/StudyRazoPage/Pages/Client/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50XFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET/StudyRazoPage/StudyRazoPage/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET/StudyRazoPage/StudyRazoPage/Pages/Shared/_Pager.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/.NET/StudyRazoPage/StudyRazoPage/Pages/Shared/_Validation.cshtml]

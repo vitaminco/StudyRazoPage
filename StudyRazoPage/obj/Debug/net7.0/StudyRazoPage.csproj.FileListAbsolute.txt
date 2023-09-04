@@ -73,3 +73,7 @@ D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\StudyRazoPage.pdb
 D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\StudyRazoPage.genruntimeconfig.cache
 D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\ref\StudyRazoPage.dll
 D:\.NET\StudyRazoPage\StudyRazoPage\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\.NET\StudyRazoPage\StudyRazoPage\bin\Debug\net7.0\JetBrains.Annotations.dll
+D:\.NET\StudyRazoPage\StudyRazoPage\bin\Debug\net7.0\X.PagedList.dll
+D:\.NET\StudyRazoPage\StudyRazoPage\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+D:\.NET\StudyRazoPage\StudyRazoPage\obj\Debug\net7.0\StudyRazoPage.MvcApplicationPartsAssemblyInfo.cs
